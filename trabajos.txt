@@ -1,0 +1,60 @@
+$('.section.experience').find('.doc-item').find('.jobdates').parent().each((i, e)=>{
+    let date = $(e).text();
+    if(date.includes('2007-03 - 2007-03'))
+        return;
+    console.log(`Fecha ${date}`);
+    console.log(`jobtitle ${$(e).next().find('.jobtitle').text()}`);
+    console.log(`locationGap ${$(e).parent().find('.locationGap').text()}`);
+    console.log(`jobline ${$(e).parent().find('.jobline').text()}`);
+    console.warn('-----------------------------')
+});
+
+Fecha: 2019-08 - Current
+                            
+jobtitle Desarrollador De Software
+Empresa: Fibotech, Hermosillo, Sonora
+                            
+jobline Desarrollo de software a la medida, Aplicaciones móviles, Sitios web, Demos, Sistemas usando la tecnología mas adecuada de acuerdo a las necesidades del cliente.
+-----------------------------
+Fecha: 2015-10 - 2019-07
+                            
+jobtitle Subdirector Desarrollo E Implementacion De Sistema
+Empresa: Supremo Tribunal De Justicia Del Estado De Sonora, Hermosillo, Sonora
+                            
+jobline Diseño y desarrollo de plataforma integral del poder judicial del estado usando múltiples tecnológicas de acuerdo a las necesidades de los múltiples departamentos. Implementación de sistemas.
+-----------------------------
+Fecha: 2014-03 - 2019-07
+                            
+jobtitle Desarrollador De Software
+Empresa: Un Paso Adelante , Hermosillo, Sonora
+                            
+jobline Desarrollo mobile con apache cordova, utlizacion Plugins Java, REST Api, JQuery, Javascrip HTML5 y CSS, Desarrollo web PHP y C# ASP.Net.
+-----------------------------
+Fecha: 2013-01 - 2014-01
+                            
+jobtitle Desarrollo Mobile Y Web.
+Empresa: MovApps, Hermosillo, Sonora
+                            
+jobline Desarrollo de Aplicaciones para Android con Phonegap, utilización de Plugins JAVA, notificaciones Google Cloud Messaging, JQuery, HTML5, CSS3, JQuery Mobile, APIs de Phonegap, Google Maps.
+Desarrollo de sitios web en PHP y .Net.
+-----------------------------
+Fecha: 2012-08 - 2012-12
+                            
+jobtitle Desarrollador Web Y Móvil.
+Empresa: Netser S.A., Hermosillo, Sonora
+                            
+jobline Desarrollo de sitios web utilizando HTML, CSS, Javascript y Jquery y PHP para backend, Desarrollo mobile con el framework Phonegap, HTML5, JQuery Mobile, CSS y consumo de servicios web en .Net y JAVA.
+-----------------------------
+Fecha: 2012-01 - 2012-08
+                            
+jobtitle Auxiliar Administrativo Y Profesor De Medio Tiempo
+Empresa: Instituto Tecnológico De Sonora, Guaymas, Sonora
+                            
+jobline Maestro en materias de especialidad de la carrera de Licenciatura en Sistemas de Información Administrativa e Ingeniero en Software. Auxiliar Administrativo, desarrollo y soporte de sistemas de sistemas integrales.
+-----------------------------
+Fecha: 2011-11 - 2012-01
+                            
+jobtitle Encargado De  Área De Informática.
+Empresa: Exactta S.A., Guaymas, Sonora
+                            
+jobline Manejo de Excel, tablas dinámicas, office en general, Visual Basic para pequeños sistemas implementados con macros de Excel. Responsable de de 3 personas a cargo.
